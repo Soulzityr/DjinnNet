@@ -1,3 +1,10 @@
-.topnav {
-  background-color: blue;
+@import "../../styles.scss";
+
+.navbar {
+  background-color: $primaryColor;
+  min-height: 40px;
+}
+
+.navbar.navbar-item {
+  color: $secondaryColor;
 }
